@@ -5,7 +5,7 @@ import axios from 'axios';
 export default async function() {
   const d = await article();
   const flags = await getFlags();
-  const endpoint = 'http://bertha.ig.ft.com/view/publish/gss/13EB-5GbFnLx_1BjI6dIed3F9SobAetJG7gNaj2So5oA/data';
+  const endpoint = 'http://bertha.ig.ft.com/view/publish/gss/1NBmpGdkL9DTHdc4rjtt11cxi6Ws54JngW9xBxIBl1DU/data';
   const cards = {};
   let data;
 

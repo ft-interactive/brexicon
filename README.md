@@ -1,6 +1,6 @@
-# [cabinet-cards](https://ig.ft.com/trump-cabinet/)
+# [brexicon](https://ig.ft.com/sites/brexicon/)
 
-> An experiment with using stream cards to create [a listicle-type story about Trump's cabinet appointments](https://ig.ft.com/sites/trump-cabinet/)
+> A simple card stack story listing commonly-used terms related to Brexit. Based on the [Trump cabinet cards](https://ig.ft.com/sites/trump-cabinet/) project.
 
 [![Build Status][circle-image]][circle-url] [![Dependency Status][devdeps-image]][devdeps-url]
 

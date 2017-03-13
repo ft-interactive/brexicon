@@ -1,24 +1,24 @@
 export default () => ({ // eslint-disable-line
 
   // link file UUID
-  id: '520c6834-adba-11e6-9cb3-bb8207902122',
+  id: 'a05b2be8-eef5-11e6-930f-061b01e23655',
 
   // canonical URL of the published page
   // https://ig.ft.com/trump-cabinet/ get filled in by the ./configure script
-  url: 'https://ig.ft.com/sites/trump-cabinet/',
+  url: 'https://ig.ft.com/sites/brexicon/',
 
   // To set an exact publish date do this:
   //       new Date('2016-05-17T17:11:22Z')
-  publishedDate: new Date('2017-01-12T17:55:22Z'),
+  publishedDate: new Date('2017-02-15T06:24:41Z'),
 
-  headline: 'Donald Trump’s cabinet and administration',
+  headline: 'Brexicon: your guide to the language of leaving the EU',
 
   // summary === standfirst (Summary is what the content API calls it)
-  summary: 'The FT guide to the president’s incoming team',
+  summary: 'What you need to know on Article 50, the customs union and other issues facing the UK',
 
   topic: {
-    name: 'Donald Trump',
-    url: 'https://www.ft.com/topics/people/Donald_Trump',
+    name: 'Brexit',
+    url: 'https://www.ft.com/topics/themes/Brexit',
   },
 
   relatedArticle: {
@@ -37,19 +37,15 @@ export default () => ({ // eslint-disable-line
   // Byline can by a plain string, markdown, or array of authors
   // if array of authors, url is optional
   byline: [
-    { name: 'Claire Manibog', url: 'https://www.ft.com/stream/authorsId/ZGVhNjk2NmEtN2ZkNy00NDllLTkyODAtYjE2NWNmNjg0NTcx-QXV0aG9ycw==' },
-    { name: 'Barney Jopson', url: 'https://www.ft.com/stream/authorsId/Q0ItMDAwMDc5MA==-QXV0aG9ycw==' },
-    { name: 'Ændrew Rininsland', url: 'https://www.ft.com/topics/authors/%C3%86ndrew_Rininsland' },
-    { name: 'Caroline Nevitt', url: 'https://www.ft.com/topics/authors/Caroline_Nevitt' },
-    { name: 'Martin Stabe', url: 'https://www.ft.com/stream/authorsId/Q0ItTVM1NDMyMQ==-QXV0aG9ycw==' },
-    { name: 'Lauren Leatherby', url: 'https://www.ft.com/lauren-leatherby' },
+    { name: 'Conor Sullivan', url: 'https://www.ft.com/stream/authorsId/Q0ItQ1M1NDMyMQ==-QXV0aG9ycw==' },
+    { name: 'Vanessa Houlder', url: 'https://www.ft.com/stream/authorsId/Q0ItMDAwMDk2MA==-QXV0aG9ycw==' },
   ],
 
   // Appears in the HTML <title>
-  title: 'Donald Trump’s cabinet picks',
+  title: 'Brexicon: Your guide to the language of leaving the EU',
 
   // meta data
-  description: 'The FT guide to the incoming US administration',
+  description: 'The FT guide to the language of Brexit',
 
   /*
   TODO: Select Twitter card type -
@@ -65,14 +61,14 @@ export default () => ({ // eslint-disable-line
         optional social meta data?
   */
   // General social
-  socialImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.prod.s3.amazonaws.com%2F867b4c1e-b627-11e6-961e-a1acd97f622d?source=ig&fit=scale-down&width=1200',
+  socialImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.prod.s3.amazonaws.com%2F80f20c42-ef07-11e6-ba01-119a44939bb6?source=ig&fit=scale-down&width=1200',
   // socialHeadline: '',
  // socialSummary:  'A guide to Donald Trump’s cabinet picks',
 
   // TWITTER
   // twitterImage: '',
   //twitterCreator: '@ft',
-  tweetText: 'The @ft guide to Donald Trump’s cabinet picks',
+  tweetText: 'The @ft guide to the language of Brexit',
   // twitterHeadline:  '',
 
   // FACEBOOK
