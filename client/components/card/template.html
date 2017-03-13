@@ -3,7 +3,7 @@
 {% macro Card(i) %}
   {% if i.name %}
   <div class="card-position" data-o-component="o-card" id="{% if i.anchor %}{{ i.anchor }}{% endif %}">
-    <h2 class="card-position__name">{% if i.topicid %}<a href="https://www.ft.com/stream/peopleId/{{ i.topicid }}">{{ i.name }}</a>  {{ FollowButton(i.topicid, i.name, 'people')}}{% else %}{{ i.name }}{% endif %}</h2>
+    <h2 class="card-position__name">{% if i.topicid %}<a href="https://www.ft.com/stream/peopleId/{{ i.topicid }}">{{ i.name }}</a>  {{ FollowButton(i.topicid, i.name, 'people')}}{% else %}{{ i.name }}{% endif %} {% if i.anchor %}<a href="#{{ i.anchor }}" style="color:#26747a; font-weight: normal; font-size:0.6em;">#</a>{% endif %}</h2>
     <div class="card-position__body">
       {{ i.copy | safe }}
       {% if i.linkurl %}<p style="text-align:right;"><a href="{{ i.linkurl }}">Stories about {{ i.name }}</a></p>{% endif %}
